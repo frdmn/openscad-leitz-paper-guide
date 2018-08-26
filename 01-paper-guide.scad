@@ -116,8 +116,8 @@ module placeText(text) {
   translate([0.5,4,0]){
     mirror([0,1,0]){
       rotate(a=-90,v=[0,0,1]){
-        linear_extrude(1);
-        text(text=text,size=4,halign="center",font="Liberation Sans:style=Bold Italic");
+        linear_extrude(1)
+            text(text=text,size=4,halign="center",font="Liberation Sans:style=Bold Italic");
       }
     }
   }
