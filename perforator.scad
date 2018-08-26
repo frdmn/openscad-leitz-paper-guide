@@ -1,6 +1,7 @@
 // Author: Dieter Vanderfaeillie
 // Leitz 5036 measure tool
 // Licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
+// - Use bold font for letters
 
 $fn = 70;
 LENGTH = 135; //Length of the tool
@@ -111,8 +112,8 @@ module placeText(text) {
   translate([0.5,4,0]){
     mirror([0,1,0]){
       rotate(a=-90,v=[0,0,1]){
-        linear_extrude(1)
-          text(text=text,size=4,halign="center");
+        linear_extrude(1);
+        text(text=text,size=4,halign="center",font="Liberation Sans:style=Bold Italic");
       }
     }
   }
