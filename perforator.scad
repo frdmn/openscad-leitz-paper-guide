@@ -5,6 +5,7 @@
 // - Depth of 11mm
 // - Fix alignments of cuts for each sizing (for some reason it was 5mm off for me)
 // - Use bold font for letters
+// - Move captions a few mm
 
 $fn = 70;
 LENGTH = 135; //Length of the tool
@@ -102,7 +103,7 @@ module roundingv(){
 
 module emboss(text){
   if(LABELS){
-    translate([-14,DEPTH-8,0]){
+    translate([-11,DEPTH-8,0]){
       difference(){
         cube([5,8,0.8]);
         placeText(text);
