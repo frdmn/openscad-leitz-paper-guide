@@ -13,6 +13,13 @@ Here's a short explanation how to use `openscad-leitz-paper-guide`:
 * Slice object
 * Print using your 3D printer
 
+## Adjusements compared to the original
+
+* Depth of `11mm`
+* Fix alignments of cuts for each sizing (for some reason it was `5mm` off for me)
+* Use bold font for letters
+* Move captions a few mm
+
 ## Contributing
 
 1. Fork it

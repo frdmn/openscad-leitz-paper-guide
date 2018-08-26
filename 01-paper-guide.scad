@@ -1,11 +1,7 @@
 // Author: Dieter Vanderfaeillie
 // Leitz 5036 measure tool
 // Licensed under a Creative Commons Attribution-ShareAlike 3.0 International License.
-// Adjusted by Jonas "frdmn" Friedmann <j@frd.mn>:
-// - Depth of 11mm
-// - Fix alignments of cuts for each sizing (for some reason it was 5mm off for me)
-// - Use bold font for letters
-// - Move captions a few mm
+// Adjusted by Jonas "frdmn" Friedmann <j@frd.mn>
 
 $fn = 70;
 LENGTH = 135; //Length of the tool
