@@ -1,11 +1,12 @@
 // Author: Dieter Vanderfaeillie
 // Leitz 5036 measure tool
 // Licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
+// - Depth of 11mm
 // - Use bold font for letters
 
 $fn = 70;
 LENGTH = 135; //Length of the tool
-DEPTH = 12;   //Depth of the tool
+DEPTH = 11;   //Depth of the tool
 HEIGHT = 5;   //Heigth of the tool
 LABELS = 1;   //Display of labels on the tool
 
