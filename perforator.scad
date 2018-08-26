@@ -1,7 +1,9 @@
 // Author: Dieter Vanderfaeillie
 // Leitz 5036 measure tool
 // Licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
+// Adjusted by Jonas "frdmn" Friedmann <j@frd.mn>:
 // - Depth of 11mm
+// - Fix alignments of cuts for each sizing (for some reason it was 5mm off for me)
 // - Use bold font for letters
 
 $fn = 70;
@@ -20,27 +22,27 @@ translate([2,DEPTH,HEIGHT]){
         roundingh(0);
         roundingh(1);
         //888
-        translate([30,0,0]){
+        translate([23,0,0]){
           cut();
           emboss("88");
         }
         //A6
-        translate([36,0,0]){
+        translate([29,0,0]){
           cut();
           emboss("A6");
         }
         //A5
-        translate([66,0,0]){
+        translate([59,0,0]){
           cut();
           emboss("A5");
         }
         //US
-        translate([100,0,0]){
+        translate([93,0,0]){
           cut();
           emboss("US");
         }
         //A4
-        translate([110,0,0]){
+        translate([103,0,0]){
           cut();
           emboss("A4");
         }
