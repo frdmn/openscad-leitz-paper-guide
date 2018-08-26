@@ -1,6 +1,6 @@
 # openscad-leitz-paper-guide
 
-Replacement paper guide for a [Leitz 5008 hole puncher]()
+Replacement paper guide for a [Leitz 5008 hole puncher](linkme). [Originally made](https://www.thingiverse.com/thing:1332137) by @[dietervdf](https://www.thingiverse.com/dietervdf/about), slightly adjusted to properly work on my Leitz model.
 
 ![](https://i.imgur.com/kxQiyQ2.png)
 ![](https://i.imgur.com/vfdkOXp.jpg)
